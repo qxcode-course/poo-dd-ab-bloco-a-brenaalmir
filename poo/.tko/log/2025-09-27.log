@@ -1,0 +1,5 @@
+2025-09-27 19:54:23, MOVE, v:1, k:carro, mode:DOWN
+2025-09-27 19:57:08, SELF, v:1, k:animal
+2025-09-27 19:57:12, MOVE, v:1, k:animal, mode:DOWN
+2025-09-27 20:12:21, MOVE, v:1, k:git_pratica, mode:DOWN
+2025-09-27 20:13:58, MOVE, v:1, k:git_pratica, mode:PICK

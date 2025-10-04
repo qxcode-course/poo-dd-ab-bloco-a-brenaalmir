@@ -1,0 +1,70 @@
+2025-10-04 16:37:42, MOVE, v:1, k:toalha, mode:PICK
+2025-10-04 16:39:30, MOVE, v:1, k:toalha, mode:PICK
+2025-10-04 16:44:59, MOVE, v:1, k:carro, mode:PICK
+2025-10-04 16:45:34, MOVE, v:1, k:calculadora, mode:DOWN
+2025-10-04 19:24:26, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 19:58:34, EXEC, v:1, k:calculadora, mode:FREE, size:35
+2025-10-04 19:59:48, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 19:59:53, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:00:46, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:02:12, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:02:14, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:02:32, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:02:41, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:03:02, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:05:15, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:05:17, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:06:11, EXEC, v:1, k:calculadora, mode:FULL, rate:0
+2025-10-04 20:06:33, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:07:18, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:08:40, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:10:01, EXEC, v:1, k:calculadora, mode:FREE, size:61
+2025-10-04 20:12:12, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:13:33, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:13:35, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:13:50, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:13:50, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:14:14, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:14:15, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:14:31, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 20:14:32, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:16:28, EXEC, v:1, k:calculadora, mode:LOCK, rate:0
+2025-10-04 20:16:28, EXEC, v:1, k:calculadora, mode:LOCK, rate:0
+2025-10-04 20:16:28, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:19:52, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:22:45, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 20:23:08, EXEC, v:1, k:calculadora, mode:FREE, size:60
+2025-10-04 20:23:50, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:24:34, EXEC, v:1, k:calculadora, mode:FULL, rate:9
+2025-10-04 20:25:19, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:26:06, EXEC, v:1, k:calculadora, mode:FULL, rate:9
+2025-10-04 20:26:07, EXEC, v:1, k:calculadora, mode:FULL, rate:9
+2025-10-04 20:29:00, EXEC, v:1, k:calculadora, mode:FREE, size:62
+2025-10-04 20:30:34, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:31:15, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:31:18, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:32:42, EXEC, v:1, k:calculadora, mode:FULL, rate:18, size:62
+2025-10-04 20:32:44, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:33:07, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:33:48, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:33:48, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:34:38, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:34:59, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:36:31, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:39:04, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:39:11, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:40:33, EXEC, v:1, k:calculadora, mode:FULL, rate:18
+2025-10-04 20:42:39, EXEC, v:1, k:calculadora, mode:FREE
+2025-10-04 20:43:21, EXEC, v:1, k:calculadora, mode:FREE, size:65
+2025-10-04 20:44:30, EXEC, v:1, k:calculadora, mode:FULL, rate:36
+2025-10-04 20:46:30, EXEC, v:1, k:calculadora, mode:FULL, rate:36, size:29
+2025-10-04 20:53:48, EXEC, v:1, k:calculadora, mode:FULL, rate:54, size:69
+2025-10-04 20:55:11, EXEC, v:1, k:calculadora, mode:FULL, rate:72, size:78
+2025-10-04 20:56:05, EXEC, v:1, k:calculadora, mode:FULL, rate:81, size:99
+2025-10-04 20:56:42, EXEC, v:1, k:calculadora, mode:FULL, rate:100, size:93
+2025-10-04 21:01:56, EXEC, v:1, k:calculadora, mode:FREE, size:91
+2025-10-04 21:09:27, MOVE, v:1, k:calculadora, mode:PICK
+2025-10-04 21:09:35, EXEC, v:1, k:calculadora, mode:FULL, rate:100
+2025-10-04 21:11:50, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 21:11:52, MOVE, v:1, k:calculadora, mode:BACK
+2025-10-04 21:18:53, SELF, v:1, k:calculadora, rate:100, human:_, guide:_, alone:7, study:130
