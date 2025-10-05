@@ -10,11 +10,11 @@ expanded:
 - bloco_b-modificadores-de-acesso
 - bloco_b-primeiras-classes
 tasks:
-  toalha: '{human:s, guide:e}'
+  toalha: '{rate:100, human:_, guide:e, alone:8, study:60}'
   animal: '{rate:100, human:_, guide:_, alone:6, study:90}'
   carro: '{rate:100, human:_, guide:_, alone:5, study:100}'
   calculadora: '{rate:100, human:_, guide:_, alone:7, study:130}'
-  enxugar: '{rate:100, human:_, guide:_, alone:6, study:120}'
+  enxugar: '{rate:100}'
 flags:
   quests: 0
   tracks: 0

@@ -147,3 +147,6 @@
 2025-10-05 20:03:47, MOVE, v:1, k:enxugar, mode:BACK
 2025-10-05 20:06:16, SELF, v:1, k:toalha, rate:100, human:_, guide:e, alone:8, study:60
 2025-10-05 20:11:39, SELF, v:1, k:enxugar, rate:100, human:_, guide:_, alone:6, study:120
+2025-10-05 20:16:09, MOVE, v:1, k:enxugar, mode:PICK
+2025-10-05 20:16:18, EXEC, v:1, k:enxugar, mode:FULL, rate:100
+2025-10-05 20:16:21, MOVE, v:1, k:enxugar, mode:BACK
