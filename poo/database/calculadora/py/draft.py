@@ -19,9 +19,9 @@ class Calculadora:
     def div(self, num: float, den: float) -> str:
         if self.battery <= 0:
             return "fail: bateria insuficiente"
-        self.battery -= 1  
         if den == 0:
             return "fail: divisao por zero"
+        self.battery -= 1  
         self.display = num / den
         return "ok"
 
@@ -30,6 +30,7 @@ class Calculadora:
 
     def get_battery(self) -> int:
         return self.battery
+
 
 def main():
     calc: Calculadora | None = None
@@ -86,6 +87,7 @@ def main():
 
         else:
             print(f"$unknown command: {cmd}")
+
 
 if __name__ == "__main__":
     main()

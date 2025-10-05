@@ -1,0 +1,39 @@
+{
+    "patches": [
+        {
+            "label": "2025-10-04_22-54-50",
+            "content": "@@ -150,16 +150,18 @@\n  int = 0\n+  \n %0A       \n@@ -184,16 +184,18 @@\n  = False\n+  \n %0A%0A    de\n@@ -1494,44 +1494,4 @@\n d())\n-%0A%0A%0Aif __name__ == %22__main__%22:%0A    main()\n",
+            "lines": "65"
+        },
+        {
+            "label": "2025-10-04_22-57-44",
+            "content": "@@ -0,0 +1,1533 @@\n+class Animal:%0A    def __init__(self, species: str, sound: str):%0A        self.species: str = species%0A        self.sound: str = sound%0A        self.age: int = 0%0A        self.dead: bool = False%0A%0A    def __str__(self) -%3E str:%0A        return f%22%7Bself.species%7D:%7Bself.age%7D:%7Bself.sound%7D%22%0A%0A    def ageBy(self, increment: int) -%3E None:%0A        if self.dead:%0A            print(f%22warning: %7Bself.species%7D morreu%22)%0A            return%0A%0A        self.age += increment%0A%0A        if self.age %3E 3:%0A            self.age = 4%0A            self.dead = True%0A            print(f%22warning: %7Bself.species%7D morreu%22)%0A%0A    def makeSound(self) -%3E str:%0A        if self.dead:%0A            return %22RIP%22%0A        elif self.age == 0:%0A            return %22---%22%0A        else:%0A            return self.sound%0A%0A%0Adef main():%0A    animal = None%0A%0A    while True:%0A        try:%0A            line = input().strip()%0A        except EOFError:%0A            break%0A%0A        if not line:%0A            continue%0A%0A        parts = line.split()%0A        cmd = parts%5B0%5D%0A%0A        print(f%22$%7Bline%7D%22)%0A%0A        if cmd == %22end%22:%0A            break%0A%0A        elif cmd == %22init%22:%0A            species = parts%5B1%5D%0A            sound = parts%5B2%5D%0A            animal = Animal(species, sound)%0A%0A        elif cmd == %22show%22 and animal is not None:%0A            print(animal)%0A%0A        elif cmd == %22grow%22 and animal is not None:%0A            increment = int(parts%5B1%5D)%0A            animal.ageBy(increment)%0A%0A        elif cmd == %22noise%22 and animal is not None:%0A            print(animal.makeSound())%0A%0A%0Aif __name__ == %22__main__%22:%0A    main()\n",
+            "lines": "69"
+        },
+        {
+            "label": "2025-10-04_22-59-52",
+            "content": "@@ -1,1650 +0,0 @@\n-class Animal:%0A    def __init__(self, species: str, sound: str):%0A        self.species: str = species%0A        self.sound: str = sound%0A        self.age: int = 0%0A        self.dead: bool = False%0A%0A    def __srt__(self) -%3E str:%0A        return f%22%7Bself.species%7D:%7Bself.age%7D:%7Bself.sound%7D%22%0A%0A    def ageBy(self, increment: int) -%3E Nome:%0A        if self.dead:%0A            print(f%22warning: %7Bself.species%7D morreu foi com Deus%22)%0A            return%0A%0A        self.age += increment%0A%0A        if self.age %3E 3:%0A            self.age = 4%0A            self.dead = True%0A            print(f%22warning: %7Bself.species%7D morreu%22)%0A%0A    def makeSound(self)  -%3E str:%0A        if self.dead:%0A            return %22RIP%22%0A        elif self.age == 0:%0A            return %22---%22%0A        else:%0A            return self.sound%0A    def main():%0A        animal = Nome%0A%0A        while True:%0A            try:%0A                line = input().strip()%0A            except E0Frror:%0A                break%0A            if not line:%0A                continue%0A%0A            parts = line.split()%0A            cmd = parts%5B0%5D%0A%0A            print(f%22$%7Bline%7D%22)%0A%0A            if cmd == %22end%22:%0A                break%0A            %0A            elif cmd == %22init%22:%0A                species = parts%5B1%5D%0A                soud = parts%5B2%5D%0A                animal = Animal(species, sound)%0A%0A            elif cmd == %22show%22 and animal is not Nome:%0A                print(animal)%0A%0A            elif cmd == %22grow%22 and animal is not Nome:%0A                increment = int(parts%5B1%5D)%0A                animal.ageBy(increment)%0A%0A            elif cmd == %22noise%22 and animal is not Nome:%0A                print(aimal.makeSound())%0A%0A%0Aif __name__%22__main___%22:%0A    main()\n",
+            "lines": "0"
+        },
+        {
+            "label": "2025-10-04_23-43-07",
+            "content": "@@ -1629,16 +1629,17 @@\n __main__\n+_\n %22:%0A    m\n",
+            "lines": "66"
+        },
+        {
+            "label": "2025-10-04_23-49-31",
+            "content": "@@ -1609,19 +1609,16 @@\n nd())%0A%0A%0A\n-   \n if __nam\n@@ -1624,21 +1624,17 @@\n me__\n- == '\n+%22\n __main__\n ':%0A \n@@ -1633,12 +1633,11 @@\n in__\n-'\n+%22\n :%0A\n- \n     \n@@ -1642,14 +1642,8 @@\n   main()\n-%0A     \n",
+            "lines": "66"
+        },
+        {
+            "label": "2025-10-04_23-59-27",
+            "content": "@@ -1651,8 +1651,13 @@\n  main()%0A\n+     \n",
+            "lines": "67"
+        },
+        {
+            "label": "2025-10-05_00-02-51",
+            "content": "class Animal:\n    def __init__(self, species: str, sound: str):\n        self.species: str = species\n        self.sound: str = sound\n        self.age: int = 0\n        self.dead: bool = False\n\n    def __srt__(self) -> str:\n        return f\"{self.species}:{self.age}:{self.sound}\"\n\n    def ageBy(self, increment: int) -> Nome:\n        if self.dead:\n            print(f\"warning: {self.species} morreu foi com Deus\")\n            return\n\n        self.age += increment\n\n        if self.age > 3:\n            self.age = 4\n            self.dead = True\n            print(f\"warning: {self.species} morreu\")\n\n    def makeSound(self)  -> str:\n        if self.dead:\n            return \"RIP\"\n        elif self.age == 0:\n            return \"---\"\n        else:\n            return self.sound\n    def main():\n        animal = Nome\n\n        while True:\n            try:\n                line = input().strip()\n            except E0Frror:\n                break\n            if not line:\n                continue\n\n            parts = line.split()\n            cmd = parts[0]\n\n            print(f\"${line}\")\n\n            if cmd == \"end\":\n                break\n            \n            elif cmd == \"init\":\n                species = parts[1]\n                soud = parts[2]\n                animal = Animal(species, sound)\n\n            elif cmd == \"show\" and animal is not Nome:\n                print(animal)\n\n            elif cmd == \"grow\" and animal is not Nome:\n                increment = int(parts[1])\n                animal.ageBy(increment)\n\n            elif cmd == \"noise\" and animal is not Nome:\n                print(aimal.makeSound())\n\n\n   if __name__ == '__main__':\n     main()\n",
+            "lines": "66"
+        }
+    ]
+}

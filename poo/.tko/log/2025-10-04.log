@@ -68,3 +68,37 @@
 2025-10-04 21:11:50, MOVE, v:1, k:calculadora, mode:BACK
 2025-10-04 21:11:52, MOVE, v:1, k:calculadora, mode:BACK
 2025-10-04 21:18:53, SELF, v:1, k:calculadora, rate:100, human:_, guide:_, alone:7, study:130
+2025-10-04 22:23:13, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 22:54:50, EXEC, v:1, k:animal, mode:FULL, rate:0, size:65
+2025-10-04 22:57:44, EXEC, v:1, k:animal, mode:FULL, rate:100, size:69
+2025-10-04 22:59:47, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 22:59:52, EXEC, v:1, k:animal, mode:FREE, size:0
+2025-10-04 23:14:02, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 23:15:15, MOVE, v:1, k:animal, mode:BACK
+2025-10-04 23:16:30, MOVE, v:1, k:carro, mode:PICK
+2025-10-04 23:33:02, EXEC, v:1, k:carro, mode:FULL, rate:100, size:81
+2025-10-04 23:35:31, MOVE, v:1, k:carro, mode:PICK
+2025-10-04 23:43:07, EXEC, v:1, k:animal, mode:FREE, size:66
+2025-10-04 23:45:58, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 23:46:04, EXEC, v:1, k:animal, mode:FREE
+2025-10-04 23:49:31, EXEC, v:1, k:animal, mode:FREE, size:66
+2025-10-04 23:51:50, EXEC, v:1, k:animal, mode:FREE
+2025-10-04 23:53:13, EXEC, v:1, k:animal, mode:FREE
+2025-10-04 23:53:24, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-04 23:55:31, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 23:55:41, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-04 23:57:53, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-04 23:57:55, EXEC, v:1, k:animal, mode:FULL, rate:0
+2025-10-04 23:57:57, EXEC, v:1, k:animal, mode:FREE
+2025-10-04 23:58:41, MOVE, v:1, k:animal, mode:PICK
+2025-10-04 23:58:50, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:52, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:52, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:52, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:53, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:53, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:53, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:54, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:54, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:58:55, EXEC, v:1, k:animal, mode:LOCK, rate:0
+2025-10-04 23:59:27, EXEC, v:1, k:animal, mode:FULL, rate:0, size:67
