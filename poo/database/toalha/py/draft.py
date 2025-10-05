@@ -26,10 +26,9 @@ class Towel:
     def isDry(self) -> bool:
         return self.wetness == 0
 
-
     def show(self) -> None:
         print(self)
 
     def __str__(self) -> str:
-        return f"{self.color} {self.size} {self.wetness}"
-    
+        return f"Cor: {self.color}, Tam:{self.size}, Umidade: {self.wetness}"
+ 

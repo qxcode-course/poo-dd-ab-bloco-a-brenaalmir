@@ -1,5 +1,5 @@
 class Towel:
-    def __init__(self, color: str, size: str): 
+    def _init_(self, color: str, size: str): 
         self.color = color
         self.size = size
         self.wetness = 0
@@ -25,7 +25,7 @@ class Towel:
             return 30
         return 0
 
-    def __str__(self):  
+    def _str_(self):  
         return f"Cor: {self.color}, Tamanho: {self.size}, Umidade: {self.wetness}"
 
 
@@ -68,5 +68,5 @@ def main():
             print("fail: comando desconhecido")
 
 
-if __name__ == "__main__": 
+if _name_ == "_main_": 
     main()
