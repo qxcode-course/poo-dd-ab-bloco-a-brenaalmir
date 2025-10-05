@@ -5,12 +5,12 @@ class Animal:
         self.age: int = 0
         self.dead: bool = False
 
-    def __srt__(self) -> str:
+    def __str__(self) -> str:
         return f"{self.species}:{self.age}:{self.sound}"
 
-    def ageBy(self, increment: int) -> Nome:
+    def ageBy(self, increment: int) -> None:
         if self.dead:
-            print(f"warning: {self.species} morreu foi com Deus")
+            print(f"warning: {self.species} morreu")
             return
 
         self.age += increment
@@ -20,47 +20,46 @@ class Animal:
             self.dead = True
             print(f"warning: {self.species} morreu")
 
-    def makeSound(self)  -> str:
+    def makeSound(self) -> str:
         if self.dead:
             return "RIP"
         elif self.age == 0:
             return "---"
         else:
             return self.sound
-    def main():
-        animal = Nome
-
-        while True:
-            try:
-                line = input().strip()
-            except E0Frror:
-                break
-            if not line:
-                continue
-
-            parts = line.split()
-            cmd = parts[0]
-
-            print(f"${line}")
-
-            if cmd == "end":
-                break
-            
-            elif cmd == "init":
-                species = parts[1]
-                soud = parts[2]
-                animal = Animal(species, sound)
-
-            elif cmd == "show" and animal is not Nome:
-                print(animal)
-
-            elif cmd == "grow" and animal is not Nome:
-                increment = int(parts[1])
-                animal.ageBy(increment)
-
-            elif cmd == "noise" and animal is not Nome:
-                print(aimal.makeSound())
 
 
-   if __name__ == '__main__':
-     main()
+def main():
+    animal = None
+
+    while True:
+        line = input().strip()
+        if not line:
+            continue
+
+        parts = line.split()
+        cmd = parts[0]
+
+        print(f"${line}")
+
+        if cmd == "end":
+            break
+
+        elif cmd == "init":
+            species = parts[1]
+            sound = parts[2]
+            animal = Animal(species, sound)
+
+        elif cmd == "show" and animal is not None:
+            print(animal)
+
+        elif cmd == "grow" and animal is not None:
+            increment = int(parts[1])
+            animal.ageBy(increment)
+
+        elif cmd == "noise" and animal is not None:
+            print(animal.makeSound())
+
+
+if __name__ == '__main__':
+    main()

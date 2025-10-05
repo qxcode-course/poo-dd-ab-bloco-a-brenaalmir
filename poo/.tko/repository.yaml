@@ -11,7 +11,8 @@ expanded:
 - bloco_b-primeiras-classes
 tasks:
   toalha: '{human:s, guide:e}'
-  carro: '{rate:100}'
+  animal: '{rate:100, human:_, guide:_, alone:6, study:90}'
+  carro: '{rate:100, human:_, guide:_, alone:5, study:100}'
   calculadora: '{rate:100, human:_, guide:_, alone:7, study:130}'
 flags:
   quests: 0
@@ -19,4 +20,4 @@ flags:
   tasks: 0
   graph: 1
   xray: 0
-index: carro
+index: animal
